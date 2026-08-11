@@ -1,4 +1,4 @@
-# garrett_s_portfolio
+# Garrett Sugg Portfolio
 
 This repository contains relevant code for the engineering projects described in my resume 
 

@@ -1,14 +1,7 @@
-# more bare-bones version of the rear force calculator
-
 ##################### BASIC IDEA #####################
-
-# We will use semi-implicit Euler integration (usually referred to as Euler's method) for solving for forces
-# Using found equations of motion, interate through a drop scenario of set initial velocity
-# We can manually set initial drop velocity if we know hight of drop and weight of car (gravity lmao)
-
-# TO-DO/IDEAS
-# - make sinusodial load case
-# - update calc with spring rate calcs from Lucas's Excel calc (pandas to pull from sheet)
+# We will use the numerical method RK4 to solve for forces.
+# Using derived equations of motion, interate through a drop scenario of set initial velocity.
+# We can manually set initial drop velocity if we know hight of drop and weight of car.
 
 from scipy.integrate import solve_ivp
 import numpy as np
